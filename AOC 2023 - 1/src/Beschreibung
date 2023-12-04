@@ -1,0 +1,21 @@
+Gesucht wird die Summe aller Zahlen des Inputs.
+
+Zahlen setzen sich zusammen aus jeweils der ersten und der letzten Ziffer einer Zeile
+
+1dasde37fsdff4eee wird zu 14, nicht 5
+
+Code teilt jede Zeile in ein Array aus chars durch regex
+
+Das gegebene Array wird jeweils von vorne als auch von hinten durchgegangen
+
+Beim auftreffen mit der ersten Ziffer wird diese abgespeichert und mit der anderen Ziffer zusammengesetzt
+
+Wird bis zum Ende des wiederholt und die Werte werde aufeinander addiert
+
+Part 2:
+
+Mit regex die Wörter durch die Zahl ersetzen. 'one' -> 1
+
+Auf edgecases achten. Bsp: oneight = 18
+
+dafür das ersetzen anpassen one -> o1e; oneeight -> o1eight -> o1e8t.
