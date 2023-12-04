@@ -27,7 +27,8 @@ public class Main {
             zeile = zeile.replace("eight","e8t");
             zeile = zeile.replace("nine","n9e");
             zeile = zeile.replace("zero","z0o");
-
+            //ende part 2
+            
             String [] angabe = zeile.split("(?!^)");
             
             for (int i = 0; i < angabe.length; i++) {
